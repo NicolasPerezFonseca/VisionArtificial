@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/sistemas/Documentos/Vision Artificial/Proyecto V1"
+CMAKE_SOURCE_DIR = /home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build"
+CMAKE_BINARY_DIR = /home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build/CMakeFiles" "/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/build/CMakeFiles /home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
