@@ -11,7 +11,7 @@ int main(int argc, char** argv)
 {
   Mat imagen = leerImagen(argv[1]);
   Mat res = binarizacion(imagen);
-  res = cierre(res, 20, 20);
+  res = cierre(res, 30, 30);
   escribirImagen(res,"resultado");
   return( 0 );
 }
