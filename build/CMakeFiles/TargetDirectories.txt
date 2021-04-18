@@ -1,0 +1,3 @@
+/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build/CMakeFiles/rebuild_cache.dir
+/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build/CMakeFiles/edit_cache.dir
+/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build/CMakeFiles/proyecto_v1.dir
