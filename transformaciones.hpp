@@ -26,5 +26,5 @@ Mat cierre(Mat imagen, int dil, int ero)
 {
     Mat imgero = erosion(imagen, ero);
     Mat imgdil = dilatacion(imgero, dil);
-    return(imgero);
+    return(imgdil);
 }
