@@ -30,7 +30,7 @@ Mat binarizacion(Mat imagen){
     cvtColor(imagen,imgGray,COLOR_BGR2GRAY);
     GaussianBlur(imgGray,imgBlur,Size(3,3),3,0);
     Canny(imgBlur,imgCanny,35,75);
-    //imgDia = dilatacion(imgCanny,20);
-    //imgDia =  erosion(imgDia,2);
+    imgDia = dilatacion(imgCanny,20);
+    imgDia =  erosion(imgDia,2);
     return imgCanny;
 }
