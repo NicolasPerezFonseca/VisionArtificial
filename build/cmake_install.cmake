@@ -1,4 +1,4 @@
-# Install script for directory: /home/sistemas/Documentos/Vision Artificial/Proyecto V1
+# Install script for directory: /home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

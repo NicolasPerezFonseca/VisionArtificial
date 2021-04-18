@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sistemas/Documentos/Vision Artificial/Proyecto V1/proyecto_v1.cxx" "/home/sistemas/Documentos/Vision Artificial/Proyecto V1/build/CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o"
+  "/home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/proyecto_v1.cxx" "/home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/build/CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
