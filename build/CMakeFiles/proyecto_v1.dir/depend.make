@@ -4,6 +4,7 @@
 CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o: ../binarizacion.hpp
 CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o: ../manejador.hpp
 CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o: ../proyecto_v1.cxx
+CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o: ../transformaciones.hpp
 CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o: /usr/local/include/opencv4/opencv2/core.hpp
 CMakeFiles/proyecto_v1.dir/proyecto_v1.cxx.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
