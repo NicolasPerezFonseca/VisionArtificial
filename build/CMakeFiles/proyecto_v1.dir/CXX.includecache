@@ -35,6 +35,22 @@ manejador.hpp
 /home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/manejador.hpp
 binarizacion.hpp
 /home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/binarizacion.hpp
+transformaciones.hpp
+/home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/transformaciones.hpp
+
+/home/arturo/Downloads/vision_artificial/Proyecto/VisionArtificial/transformaciones.hpp
+stdio.h
+-
+opencv2/opencv.hpp
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+list
+-
+math.h
+-
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

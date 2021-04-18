@@ -40,7 +40,7 @@ int MetodoOtsu(float ratio[]){
   return umbral;
 }
 
-Mat binarizcion(Mat imagen)
+Mat binarizacion(Mat imagen)
 {
   Size size((int)(imagen.cols), (int)(imagen.rows));
   Mat imgGris= Mat::zeros(size, CV_64F );
