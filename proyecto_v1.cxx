@@ -12,7 +12,8 @@ int main(int argc, char** argv)
   Mat imagen = leerImagen(argv[1]);
   Mat res = binarizacion(imagen);
   escribirImagen(res,"binarizado");
-  res = cierre(res, 30, 30);
+  res = cierre(res, 10, 10);
+  cout<<"cerrado..."<<endl;
   escribirImagen(res,"cierre");
   return( 0 );
 }

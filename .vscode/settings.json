@@ -1,8 +1,12 @@
 {
-    "files.associations": {
-        "array": "cpp",
-        "string_view": "cpp",
-        "initializer_list": "cpp",
-        "utility": "cpp"
-    }
+  "files.associations": {
+    "array": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "utility": "cpp"
+  },
+  "C_Cpp_Runner.cCompilerPath": "/usr/bin/gcc",
+  "C_Cpp_Runner.cppCompilerPath": "/usr/bin/g++",
+  "C_Cpp_Runner.debuggerPath": "/usr/bin/gdb",
+  "C_Cpp_Runner.makePath": "/usr/bin/make"
 }
