@@ -36,19 +36,37 @@ list<Punto> extraerEsquinas(list<Punto> puntos){
     Punto inicial = puntos.front();
     Punto finali = puntos.back();
     list<Punto> retorno;
-    int diferencia = (finali.j-inicial.j)/2;
-    Punto min1=inicial, min2=finali; 
-    for (Punto p:puntos){
-        if(p.j<inicial.j+diferencia){
-            if(p.i<min1.i){
-                min1=p;
+    int diferencia = (finali.i-inicial.i)/2;
+    Punto min1=inicial, min2=finali,max1 = inicial, max2 = finali; 
+    while(!puntos.empty())
+    {
+        Punto p= puntos.front();
+        if(p.i<inicial.i+diferencia){
+            if(p.j<min1.j)
+            {
+                min1.i=p.i;
+                min1.j=p.j;
+            }
+            if(p.j>max1.j)
+            {
+                max1.i=p.i;
+                max1.j=p.j;
             }
         }
         else{
-            if(p.i<min2.i){
-                min2=p;
+            if(p.j<min2.j)
+            {
+                min2.i=p.i;
+                min2.j=p.j;
+
+            }
+            if(p.j>max2.j)
+            {
+                max2.i=p.i;
+                max2.j=p.j;
             }
         }
+        puntos.pop_front();
     }
     retorno.push_back(inicial);
     retorno.push_back(min1);
