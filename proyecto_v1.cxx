@@ -35,6 +35,7 @@ int main(int argc, char** argv)
   
 
   int x,y;
+  puntos=extraerEsquinas(puntos);
   Punto p1=puntos.front();
   puntos.pop_front();
   Punto p2=puntos.front();
