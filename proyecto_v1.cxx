@@ -44,15 +44,34 @@ int main(int argc, char** argv)
   puntos.pop_front();
   Punto p4=puntos.front();
   puntos.pop_front();
+  Punto p5=puntos.front();
+  puntos.pop_front();
+  Punto p6=puntos.front();
+  puntos.pop_front();
 
   Ecuacion e1(p1.i,p2.i,p1.j,p2.j);
-  Ecuacion e2(p3.i,p4.i,p3.j,p4.j);
+  Ecuacion e2(p4.i,p6.i,p4.j,p6.j);
   e1.interseccion(&x,&y,e2);
   cout<< "x: "<<x<<" y: "<<y<<endl;
 
-  Point Punto1(p1.j,p1.i);
-  Point Punto2(y,x);
-  dibujarlinea(imagen,Punto1,Punto2);
+  Point puntoArriba(p1.j,p1.i);
+  Point puntoIzq(y,x);
+  dibujarlinea(imagen,puntoArriba,puntoIzq);
+
+  Point puntoAbajo(p6.j,p6.i);
+  dibujarlinea(imagen,puntoAbajo,puntoIzq);
+
+  Ecuacion e3(p1.i,p3.i,p1.j,p3.j);
+  Ecuacion e4(p5.i,p6.i,p5.j,p6.j);
+  e3.interseccion(&x,&y,e4);
+  Point puntoDer(y,x);
+  dibujarlinea(imagen,puntoArriba,puntoDer);
+  dibujarlinea(imagen,puntoAbajo,puntoDer);
+  dibujarlinea(imagen,Point(p2.j,p2.i),puntoDer);
+  dibujarlinea(imagen,Point(p4.j,p4.i),puntoDer);
+  dibujarlinea(imagen,Point(p3.j,p3.i),puntoIzq);
+  dibujarlinea(imagen,Point(p5.j,p5.i),puntoIzq);
+
   escribirImagen(imagen,"lineas");
   
   return( 0 );

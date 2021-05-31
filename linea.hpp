@@ -14,7 +14,7 @@ class Ecuacion{
         this->y1=y1;
         this->y2=y2;
         this->m=((y2-y1)/(x2-x1));
-        this->b=y1-m*x1;
+        this->b=y1-(m*x1);
     }
     void interseccion(int *x, int *y,Ecuacion linea2){
          (*x)=((linea2.b - this->b)/(this->m - linea2.m));
@@ -70,7 +70,9 @@ list<Punto> extraerEsquinas(list<Punto> puntos){
     }
     retorno.push_back(inicial);
     retorno.push_back(min1);
+    retorno.push_back(max1);
     retorno.push_back(min2);
+    retorno.push_back(max2);
     retorno.push_back(finali);
     return retorno;
 
